@@ -1,0 +1,44 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Nav Bar */
+
+.nav {
+  display: flex;
+  position: fixed;
+  height: 64px;
+  width: 100%;
+  background-color: white;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  padding-left: 24px;
+}
+
+.logo img {
+  height: 32px;
+}
+
+.colmar {
+  color: #4A4A4A;
+  font-weight: bold;
+}
+
+.academy {
+  color: #9B9B9B;
+}
+
+.topoptions {
+  margin-right: 16px;
+}
+
+.topoptions span a {
+  padding: 0 8px;
+  text-decoration: none;
+  color: #4A4A4A;
+}
