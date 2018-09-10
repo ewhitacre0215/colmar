@@ -8,6 +8,7 @@ html {
 
 video {
   width: 60%;
+  height: auto;
 }
 /* Nav Bar */
 
@@ -93,13 +94,34 @@ button {
   padding: 8px;
 }
 
+/* Banner 2 */
+.banner2 {
+  display: flex;
+  flex-direction: row;
+  margin: 32px 24px;
+}
+
+.hurt {
+  display: flex;
+  flex-direction: column;
+  padding-top: 32px;
+  padding-left: 24px;
+  width: 60%;
+}
+
+.hurt img {
+  width: 100%;
+}
+
+.hurtcontent h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
 
 /* Footer */
 .footer-container {
   display: flex;
   align-items: center;
-  margin-left: 24px;
-  margin-right: 24px;
   padding-top: 16px;
   width: 100%;
   height: 90px;
@@ -108,9 +130,14 @@ button {
 .footer-container p {
   display: flex;
   flex-grow: 1;
+  margin-left: 24px;
 }
 
 .footer-container span a {
   padding: 0px 16px;
   text-decoration: none;
+}
+
+.terms {
+  padding-right: 24px;
 }
