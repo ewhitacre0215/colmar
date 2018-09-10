@@ -1,5 +1,7 @@
 html {
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #4A4A4A;
 }
 
 /* Nav Bar */
@@ -11,6 +13,7 @@ html {
   width: 100%;
   background-color: white;
   align-items: center;
+  z-index: 10;
 }
 
 .logo {
@@ -41,4 +44,46 @@ html {
   padding: 0 8px;
   text-decoration: none;
   color: #4A4A4A;
+}
+
+/* Hero Section */
+
+.hero {
+  display: inline-flex;
+  flex-direction: row;
+  background-color: #D8D8D8;
+  width: 100%;
+  position: relative;
+  top: 64px;
+  align-items: center;
+}
+
+.hero img {
+  width: 60%;
+  height: auto;
+  padding: 32px 24px;
+}
+
+.herocontent {
+  margin-left: 24px;
+  width: 375px;
+}
+
+.herocontent h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  padding-bottom: 24px;
+}
+
+.herocontent p {
+  font-size: 1.5rem;
+  padding-bottom: 24px;
+}
+
+button {
+  background-color: #4A4A4A;
+  color: white;
+  width: 100%;
+  font-size: 1.25rem;
+  padding: 8px;
 }
