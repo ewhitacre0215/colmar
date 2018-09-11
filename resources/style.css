@@ -1,7 +1,8 @@
 html {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  color: #4A4A4A;
+  /*color: #4A4A4A;*/
+  color: #1d2951;
   width: auto;
   height: 100vh;
 }
@@ -36,12 +37,12 @@ h2 {
 }
 
 .colmar {
-  color: #4A4A4A;
+  color: #1d2951;
   font-weight: bold;
 }
 
 .academy {
-  color: #9B9B9B;
+  color: #7fe6e8;
 }
 
 .topoptions {
@@ -51,7 +52,7 @@ h2 {
 .topoptions span a {
   padding: 0 8px;
   text-decoration: none;
-  color: #4A4A4A;
+  color: #1d2951;
 }
 
 /* Hero Section */
@@ -59,11 +60,12 @@ h2 {
 .hero {
   display: inline-flex;
   flex-direction: row;
-  background-color: #D8D8D8;
+  background-color: #1d2951;
   width: 100%;
   position: relative;
   padding-top: 64px;
   align-items: center;
+  color: #7fe6e8;
 }
 
 .hero img {
@@ -89,8 +91,8 @@ h2 {
 }
 
 button {
-  background-color: #4A4A4A;
-  color: white;
+  background-color: #7fe6e8;
+  color: #1d2951;
   width: 100%;
   font-size: 1.25rem;
   padding: 8px;
@@ -130,7 +132,7 @@ button {
   display: flex;
   flex-direction: column;
   width: 40%;
-  border-left: 2px solid #D8D8D8;
+  border-left: 2px solid #1d2951;
   margin-left: 20px;
   justify-content: flex-start;
   padding-top: 16px;
@@ -162,7 +164,7 @@ button {
 
 .optioncontent p a {
   text-decoration: none;
-  color: blue;
+  color: #7fe6e8;
 }
 
 .link {
@@ -175,23 +177,32 @@ button {
 }
 
 #orientation {
-  border-bottom: 1px solid #D8D8D8;
+  border-bottom: 1px solid #1d2951;
   margin-bottom: 0px;
 }
 
 #campus {
-  border-top: 1px solid #D8D8D8;
+  border-top: 1px solid #1d2951;
 }
 
 #guest {
-  background-color: #D8D8D8;
+  background-color: #1d2951;
+  color: #7fe6e8;
+}
+
+#guest p a {
+  color: white;
 }
 
 /* Start Learning */
 .learning {
-  background-color: #D8D8D8;
+  background-color: #1d2951;
   padding: 32px 72px;
   text-align: center;
+}
+
+.learning h2 {
+  color: #7fe6e8;
 }
 
 .classcards {
@@ -295,18 +306,22 @@ video {
 }
 
 #fisma {
-  background-color: #D8D8D8;
+  background-color: #1d2951;
+  color: #7fe6e8;
 }
 
 
 /* Footer */
+footer {
+  color: #1d2951;
+}
 .footer-container {
   display: flex;
   align-items: flex-start;
   padding-top: 16px;
   width: 100%;
   height: 90px;
-  border-top: 1px solid #D8D8D8;
+  border-top: 1px solid #1d2951;
 }
 
 .footer-container p {
@@ -318,6 +333,7 @@ video {
 .footer-container span a {
   padding: 0px 16px;
   text-decoration: none;
+  color: #1d2951;
 }
 
 .terms {
