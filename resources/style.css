@@ -55,6 +55,30 @@ h2 {
   color: #1d2951;
 }
 
+@media only screen and (min-width: 600px) {
+  .logo #mobilenav {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .colmar, .academy, .topoptions span a {
+    display: none;
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .logo #mobilenav, .logo #logo {
+    display: flex;
+    flex-grow: 1;
+  }
+
+}
+
 /* Hero Section */
 
 .hero {
@@ -96,6 +120,32 @@ button {
   width: 100%;
   font-size: 1.25rem;
   padding: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+  }
+
+.hero img {
+  width: 100%;
+  padding: 0px;
+}
+
+.herocontent {
+  max-width: 80%;
+  padding: 32px 16px;
+  margin: 0px;
+}
+
+.herocontent h1 {
+  font-size: 2.2rem;
+}
+
+.herocontent p {
+  font-size: 1rem;
+}
 }
 
 /* Banner 2 */
@@ -194,6 +244,71 @@ button {
   color: white;
 }
 
+@media only screen and (min-width: 600px) {
+  .option #optimgmobile {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .hurt {
+    display: none;
+  }
+
+  .options {
+    width: 100%;
+    border-left: none;
+    padding: 16px 16px 32px 16px;
+    margin: 0px;
+  }
+
+  .option {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .option #desktop {
+    display: none;
+  }
+
+  .option img {
+    width: 100%;
+  }
+
+  .optioncontent {
+    padding-left: none;
+    padding-top: 24px;
+  }
+
+  .optioncontent h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-bottom: 8px;
+  }
+
+  .optioncontent p {
+    font-size: .9rem;
+    line-height: 1.5rem;
+  }
+
+  #orientation {
+    border-bottom: none;
+  }
+
+  #campus {
+    border-top: none;
+  }
+
+  #guest {
+    background-color: white;
+    color: #1d2951;
+  }
+
+  #guest p a {
+    color: #7fe6e8;
+  }
+}
+
 /* Start Learning */
 .learning {
   background-color: #1d2951;
@@ -242,6 +357,32 @@ button {
   padding-bottom: 24px;
   line-height: 1.7rem;
   font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .learning {
+    padding: 16px;
+  }
+
+  .classcards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .card {
+    width: 100%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+
+  .card h3 {
+    font-size: 1.4rem;
+  }
+
+  .card img, .card p {
+    display: none;
+  }
 }
 
 /* Thesis Section*/
@@ -310,6 +451,21 @@ video {
   color: #7fe6e8;
 }
 
+@media only screen and (max-width: 600px) {
+  .urbancontent, .thesisoptions {
+    display: none;
+  }
+
+.urban {
+  width: 100%;
+  padding: 0px;
+}
+
+video {
+  width:100%;
+  height: auto;
+}
+}
 
 /* Footer */
 footer {
@@ -338,4 +494,15 @@ footer {
 
 .terms {
   padding-right: 24px;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-container span a {
+    display: none;
+  }
+
+  .footer-container p {
+    padding-top: 40px;
+    font-size: .9rem;
+  }
 }
