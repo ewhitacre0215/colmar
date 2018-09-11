@@ -95,6 +95,9 @@ button {
 }
 
 /* Banner 2 */
+
+/* Keep Practicing Section*/
+
 .banner2 {
   display: flex;
   flex-direction: row;
@@ -114,17 +117,67 @@ button {
   width: 100%;
 }
 
-.hurtcontent {
-
-}
-
 .hurtcontent h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
   padding-top: 32px;
   padding-bottom: 24px;
 }
 
+.hurtcontent p {
+  font-size: 1.2rem;
+  padding-bottom: 24px;
+  line-height: 2rem;
+}
+
+/* Extra Options Section*/
+.options {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  border-left: 2px solid #D8D8D8;
+  margin-left: 20px;
+  justify-content: space-around;
+}
+
+.option {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 35px;
+}
+
+.option img {
+  width: 35%;
+  height: auto;
+}
+
+.optioncontent {
+  padding-left: 24px;
+}
+
+.optioncontent h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+
+.optioncontent p a {
+  padding-top: 8px;
+}
+
+#orientation {
+  border-bottom: 2px solid #D8D8D8;
+  margin-bottom: 0px;
+}
+
+#campus {
+  border-top: 2px solid #D8D8D8;
+}
+
+#guest {
+  background-color: #D8D8D8;
+}
 /* Footer */
 .footer-container {
   display: flex;
